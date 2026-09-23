@@ -117,6 +117,7 @@ export default function AdminPage() {
             <div className="field">
               <label className="label">البريد الإلكتروني</label>
               <Input
+              label="البريد الإلكتروني"
                 type="email"
                 required
                 placeholder="admin@example.com"
@@ -128,6 +129,7 @@ export default function AdminPage() {
             <div className="field">
               <label className="label">كلمة المرور</label>
               <Input
+              label="كلمة المرور"
                 type="password"
                 required
                 placeholder="••••••••"

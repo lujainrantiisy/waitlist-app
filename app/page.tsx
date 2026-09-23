@@ -58,6 +58,7 @@ export default function WaitlistPage() {
           <form onSubmit={handleSubmit}>
             <div className="field">
               <Input
+              label="البريد الإلكتروني"
                 type="email"
                 placeholder="enter your email address..."
                 value={email}
